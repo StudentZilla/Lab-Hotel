@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lab-Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <div class = "header"> 
+    <h1> Totally Not Identity Theft </h1>
+  </div>
+
+  <br>
+
+  <div class = "card">
+    <div class = "card-header">
+      <h5> Enter Your Personal Information </h5>
+    </div>
+    <div class = "card-body">
+      <form>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "fName"> First name: </label>
+            <input type = "text" style = "width: 218px" placeholder = "Enter First Name Here" id = "fName" name = "fName">
+          </div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "lName"> Last name: </label>
+            <input type = "text" style = "width: 221px" placeholder = "Enter Last Name header" id = "lName" name = "lName">
+          </div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "fName"> Social Security Number </label>
+            <input type = "text" style = "width: 218px" placeholder = "Please Enter Your 9 Digit Social Security Number" id = "socialSecurity" name = "socialSecurity">
+          </div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "pNumber"> Phone number: </label>
+            <input type = "text" placeholder = "(xxx)-xxx-xxxx" id = "pNumber" name = "pNumber">
+          </div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "email"> Email: </label>
+            <input type = "text" style = "width: 255px" placeholder = "Enter your Email Here" id = "email" name = "email">
+          </div>
+        </div>
+        <br>
+        <div class = "row">
+          <div class = "col-sm-8">
+            <label for = "birth"> Birthdate: </label>
+            <input type = "date"  style = "width: 230px" id = "birth" name = "birth">
+          <br>
+          <br>
+
+            <p> What is Your Gender?: </p>
+            <select>
+              <option value = "blank">  </option>
+              <option value = "male"> Male </option>
+              <option value = "female"> Female </option>
+              <option value = "other"> Other </option>
+            </select>
+          </div>
+        </div>
+        <br>
+    </div>
+  </div>
+
+  <br>
+
+  <div class = "card">
+    <div class = "card-header">
+      <h5> Payment Information </h5>
+    </div>
+    <div class = "card-body">
+      <p> Name on Card: </p>
+      <label for = "cardFName"> First name: </label>
+      <input type = "text" id = "cardFName" name = "cardFName">
+      <label for = "middle"> Middle initial: </label>
+      <input type = "text" id = "middle" name = "middle" style = "width: 30px">
+      <label for = "cardLName"> Last name: </label>
+      <input type = "text" id = "cardLName" name = "cardLName">
+      <br>
+      <br>
+      <p> Card Provider: </p>
+      <select>
+        <option value = "visa"> Visa </option>
+        <option value = "masterCard"> Master Card </option>
+        <option value = "discover"> Discover </option>
+        <option value = "americanExpress"> American Express </option>
+      </select>
+      <br>
+      <br>
+      <label for = "cardNumber"> Card number: </label>
+      <input type = "text" placeholder = "xxxx-xxxx-xxxx-xxxx" id = "cardnumber" name = "cardNumber">
+      <label for = "expDate"> Exp. date: </label>
+      <input type = "text" placeholder = "MM/YY" style = "width: 70px" id = "expDate" name = "expDate">
+      <label for = "cvvNumber"> CVV: </label> 
+      <input type = "text" placeholder = "xxx" style = "width: 40px" id = "cvvNumber" name = "cvvNumber">
+      <br>
+      <br>
+      <button type = "button" id = "submitFormRental" class = "btn btn-primary"> Submit </button>
+    </div>
+  </div>
+
+
+  <br>
+  <div class = "footer">
+      <h5> <a href = "https://github.com/StudentZilla/Dev-Lab-Hotel" > Dev Lab Hotel Repo  </a> <span> || </span> <a href = "">  Hotel Validation </a> </h5>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<script src="./scripts/script.js"></script>
+
+</body>
+</html>
